@@ -42,7 +42,7 @@ To reproduce the preprocessing steps:
 1. Use the provided raw dataset located in the `data/` directory
 2. Run the data preprocessing notebook to generate the processed datasets
 
-Processed datasets used for modeling are generated programmatically and are not manually edited.
+Processed datasets are generated programmatically during preprocessing and modeling stages and are intentionally not committed to the repository to maintain flexibility and avoid redundancy.
 
 ---
 
@@ -82,13 +82,21 @@ This section will include:
 
 ## Repository Structure
 Customer-Insight-Churn-Prediction-Platform/
+
 ├── app/                 # Streamlit application (planned)
+
 ├── dashboard/           # Dashboard files
+
 ├── data/
+
 │   └── raw_dataset.csv  # Raw Telco Customer Churn dataset
+
 ├── model/               # Saved models (planned)
+
 ├── notebooks/           # Jupyter notebooks (EDA & preprocessing)
+
 ├── sql/                 # SQL analysis
+
 └── README.md
 
 
