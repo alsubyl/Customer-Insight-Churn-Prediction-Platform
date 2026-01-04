@@ -83,7 +83,6 @@ This section will include:
 ## Repository Structure
 Customer-Insight-Churn-Prediction-Platform/
 
-Customer-Insight-Churn-Prediction-Platform/
 ├── app/                 # Streamlit application (planned)
 
 ├── dashboard/           # Dashboard files
