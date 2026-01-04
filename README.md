@@ -3,7 +3,7 @@
 An end-to-end data analytics project focused on analyzing customer behavior and predicting customer churn using machine learning.  
 The project aims to support data-driven business decisions through structured data preprocessing, predictive modeling, SQL analysis, interactive dashboards, and a Streamlit-based web application.
 
----
+
 
 ## Project Overview
 
@@ -18,7 +18,7 @@ The platform follows a structured workflow that includes:
 - Business dashboards and visualizations
 - A deployable web application for predictions (planned)
 
----
+
 
 ## Dataset
 
@@ -44,7 +44,7 @@ To reproduce the preprocessing steps:
 
 Processed datasets are generated programmatically during preprocessing and modeling stages and are intentionally not committed to the repository to maintain flexibility and avoid redundancy.
 
----
+
 
 ## Preprocessing
 
@@ -60,7 +60,7 @@ Key steps include:
 > For simplicity, One-Hot Encoding was applied before the train–test split in the preprocessing notebook.  
 > In the final modeling stage, a `Pipeline` with `OneHotEncoder(handle_unknown="ignore")` will be used to avoid data leakage and safely handle unseen categories.
 
----
+
 
 ## Modeling *(Planned)*
 
@@ -70,7 +70,7 @@ This section will include:
 - Handling class imbalance
 - Evaluation metrics and performance analysis
 
----
+
 
 ## Dashboards & Application *(Planned)*
 
@@ -78,29 +78,25 @@ This section will include:
 - Interactive dashboards (Power BI)
 - A Streamlit web application for churn prediction
 
----
+
 
 ## Repository Structure
 Customer-Insight-Churn-Prediction-Platform/
 
+Customer-Insight-Churn-Prediction-Platform/
 ├── app/                 # Streamlit application (planned)
-
 ├── dashboard/           # Dashboard files
-
 ├── data/
-
-│   └── raw_dataset.csv  # Raw Telco Customer Churn dataset
-
+│   ├── raw_dataset.csv  # Raw Telco Customer Churn dataset
+│   └── processed/       # Generated locally (not committed)
 ├── model/               # Saved models (planned)
-
 ├── notebooks/           # Jupyter notebooks (EDA & preprocessing)
-
 ├── sql/                 # SQL analysis
-
 └── README.md
 
 
----
+
+
 
 ## Author
 
