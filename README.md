@@ -85,13 +85,21 @@ Customer-Insight-Churn-Prediction-Platform/
 
 Customer-Insight-Churn-Prediction-Platform/
 ├── app/                 # Streamlit application (planned)
+
 ├── dashboard/           # Dashboard files
+
 ├── data/
+
 │   ├── raw_dataset.csv  # Raw Telco Customer Churn dataset
+
 │   └── processed/       # Generated locally (not committed)
+
 ├── model/               # Saved models (planned)
+
 ├── notebooks/           # Jupyter notebooks (EDA & preprocessing)
+
 ├── sql/                 # SQL analysis
+
 └── README.md
 
 
