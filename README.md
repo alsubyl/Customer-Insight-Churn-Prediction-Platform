@@ -1,3 +1,4 @@
+# Project in progress - modeling and deployment ongoing
 # Customer-Insight-Churn-Prediction-Platform
 
 An end-to-end data analytics project focused on analyzing customer behavior and predicting customer churn using machine learning.  
